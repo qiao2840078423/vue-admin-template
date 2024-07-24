@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="map">
     <router-view></router-view>
     <div class="chooseMap">
@@ -7,11 +8,16 @@
         <el-radio label="2" class="myRadio">卫星图</el-radio>
       </el-radio-group>
     </div>
+=======
+  <div style="margin: 50px;">
+    这里是流域拓补图
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
   </div>
 </template>
 
 <script>
 export default {
+<<<<<<< HEAD
   data() {
     return {
       radio: this.$route.path === "/picture/index/topology" ? "1" : "2",
@@ -48,4 +54,12 @@ export default {
   text-shadow: 2px 2px 4px #fff;
   font-weight: bold;
 }
+=======
+
+}
+</script>
+
+<style>
+
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
 </style>

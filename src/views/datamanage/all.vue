@@ -1,5 +1,6 @@
 <template>
   <div class="dashboard-editor-container">
+<<<<<<< HEAD
     <el-form :inline="true" :model="formInline">
       <el-form-item label="名称" class="form-inline">
         <el-input v-model="formInline.name" placeholder="请输入名称"></el-input>
@@ -19,6 +20,11 @@
       <el-table-column prop="id" align="center" label="代码"> </el-table-column>
       <el-table-column prop="name" label="名称"> </el-table-column>
       <el-table-column prop="type" label="类别"> </el-table-column>
+=======
+    <el-table :data="tableData" border style="width: 100%" max-height="1000">
+      <el-table-column prop="id" align="center" label="代码"> </el-table-column>
+      <el-table-column prop="name" label="名称"> </el-table-column>
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
       <el-table-column prop="locate" label="空间维度"> </el-table-column>
       <el-table-column prop="preDate" label="生效时间"> </el-table-column>
       <el-table-column prop="endDate" label="失效时间"> </el-table-column>
@@ -49,7 +55,10 @@ const tableData = [
   {
     id: 1,
     name: "水电站1",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度1",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -57,7 +66,10 @@ const tableData = [
   {
     id: 2,
     name: "水电站2",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度2",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -65,7 +77,10 @@ const tableData = [
   {
     id: 3,
     name: "水电站3",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度3",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -73,7 +88,10 @@ const tableData = [
   {
     id: 4,
     name: "水电站4",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度4",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -81,7 +99,10 @@ const tableData = [
   {
     id: 5,
     name: "水电站5",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度5",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -89,7 +110,10 @@ const tableData = [
   {
     id: 6,
     name: "水电站6",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度6",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -97,7 +121,10 @@ const tableData = [
   {
     id: 7,
     name: "水电站7",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度7",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -105,7 +132,10 @@ const tableData = [
   {
     id: 8,
     name: "水电站8",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度8",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -113,7 +143,10 @@ const tableData = [
   {
     id: 9,
     name: "水电站9",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度9",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -121,7 +154,10 @@ const tableData = [
   {
     id: 10,
     name: "水电站10",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度10",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -129,7 +165,10 @@ const tableData = [
   {
     id: 11,
     name: "水电站11",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度11",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -137,7 +176,10 @@ const tableData = [
   {
     id: 12,
     name: "水电站12",
+<<<<<<< HEAD
     type: "水电站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度12",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -145,7 +187,10 @@ const tableData = [
   {
     id: 1,
     name: "水文站1",
+<<<<<<< HEAD
     type: "水文站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度1",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -153,7 +198,10 @@ const tableData = [
   {
     id: 2,
     name: "水文站2",
+<<<<<<< HEAD
     type: "水文站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度2",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -161,7 +209,10 @@ const tableData = [
   {
     id: 3,
     name: "水文站3",
+<<<<<<< HEAD
     type: "水文站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度3",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -169,7 +220,10 @@ const tableData = [
   {
     id: 4,
     name: "水文站4",
+<<<<<<< HEAD
     type: "水文站",
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     locate: "空间维度4",
     preDate: "2023-9-1",
     endDate: "2023-10-1",
@@ -181,10 +235,13 @@ export default {
   data() {
     return {
       tableData: tableData,
+<<<<<<< HEAD
       formInline: {
         name: "",
         type: "",
       },
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
     };
   },
   methods: {
@@ -197,6 +254,7 @@ export default {
         type: "success",
       });
     },
+<<<<<<< HEAD
     onSearch() {
       let name = this.formInline.name.trim()
       let type = this.formInline.type.trim()
@@ -208,6 +266,8 @@ export default {
         type: "success",
       });
     }
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
   },
 };
 </script>
@@ -222,8 +282,11 @@ export default {
 .myElButton {
   margin: 0 20px;
 }
+<<<<<<< HEAD
 
 .form-inline {
   margin: 0 30px 20px 0;
 }
+=======
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
 </style>

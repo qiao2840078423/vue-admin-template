@@ -60,10 +60,17 @@
       >
     </div>
 
+<<<<<<< HEAD
     <el-dialog :visible.sync="dialogFormVisible" top="7vh">
       <el-form :model="form">
         <el-form-item label="id" :label-width="formLabelWidth">
           <el-input v-model="form.id" autocomplete="off" disabled></el-input>
+=======
+    <el-dialog title="编 辑" :visible.sync="dialogFormVisible">
+      <el-form :model="form">
+        <el-form-item label="id" :label-width="formLabelWidth">
+          <el-input v-model="form.id" autocomplete="off" readonly></el-input>
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
         </el-form-item>
         <el-form-item label="名 称" :label-width="formLabelWidth">
           <el-input v-model="form.name" autocomplete="off"></el-input>
@@ -93,10 +100,17 @@
           <el-input v-model="form.controller" autocomplete="off"></el-input>
         </el-form-item>
         <el-form-item label="生效时间" :label-width="formLabelWidth">
+<<<<<<< HEAD
           <el-input v-model="form.preDate" autocomplete="off" disabled></el-input>
         </el-form-item>
         <el-form-item label="失效时间" :label-width="formLabelWidth">
           <el-input v-model="form.endDate" autocomplete="off" disabled></el-input>
+=======
+          <el-input v-model="form.preDate" autocomplete="off"></el-input>
+        </el-form-item>
+        <el-form-item label="失效时间" :label-width="formLabelWidth">
+          <el-input v-model="form.endDate" autocomplete="off"></el-input>
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
         </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">

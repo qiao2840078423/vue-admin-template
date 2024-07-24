@@ -69,8 +69,12 @@ export const constantRoutes = [
         path: 'all',
         name: 'DataAll',
         meta: {
+<<<<<<< HEAD
           title: '全部数据',
           icon: 'nested'
+=======
+          title: '全部数据'
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
         },
         component: () => import('@/views/datamanage/all'),
       },
@@ -93,6 +97,7 @@ export const constantRoutes = [
     children: [
       {
         path: 'index',
+<<<<<<< HEAD
         name: 'Index',
         component: () => import('@/views/picture/index'),
         // redirect: '/picture/index/topology',
@@ -110,6 +115,11 @@ export const constantRoutes = [
             hidden: true
           }
         ]
+=======
+        name: 'Picture',
+        component: () => import('@/views/picture/index'),
+        meta: { title: '流域拓补图', icon: 'tree' }
+>>>>>>> 18c14c2988978318652ce87c0d74b6d934ebe852
       }
     ]
   },
